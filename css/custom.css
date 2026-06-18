@@ -602,11 +602,17 @@ h1, h2, h3, h4 { margin: 0; font-weight: 400; }
   .hero-sticker { width: 80px; height: 80px; font-size: 0.62rem; right: 4%; }
   .btn { width: 100%; }
   .hero-cta .btn, .final .btn { width: 100%; }
+  .howto-media img
+  {
+        aspect-ratio: 2 / 1 !important; 
+  }
 }
 
 @media (max-width: 420px) {
   .bundle-media { grid-template-columns: 1fr; }
   .gap-colors { grid-template-columns: repeat(2, 1fr); }
+
+  
 }
 
 /* ===== UTILITIES / HELPERS ===== */
